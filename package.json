@@ -1,6 +1,6 @@
 {
   "name": "actionmesh",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Typed TypeScript action contracts for AI tools, MCP-style calls, HTTP and CLI with shared Zod validation, errors and retry semantics.",
   "type": "module",
   "exports": {

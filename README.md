@@ -117,6 +117,12 @@ ActionMesh uses Zod schemas for runtime input validation and can also validate o
 - [ ] Structured audit hooks
 - [ ] Concurrency and idempotency policies
 
+## Related tools
+
+- [BrowserProof](https://github.com/yashkhou/browserproof) - browser-state verification for AI agents and Playwright workflows.
+- [RunLedger](https://github.com/yashkhou/runledger) - tamper-evident execution history for AI-agent runs.
+- [ActionMesh](https://github.com/yashkhou/actionmesh) - typed action contracts for tools, HTTP and CLI.
+
 ## Development
 
 ```bash

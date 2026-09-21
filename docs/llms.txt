@@ -1,4 +1,4 @@
-# actionmesh
+# ActionMesh
 
 > Typed TypeScript action contracts for AI tools, MCP-style calls, HTTP and CLI with shared Zod validation, errors and retry semantics.
 
@@ -16,7 +16,7 @@ ActionMesh is a framework-agnostic TypeScript action registry that keeps an oper
 
 ## What problem it solves
 
-It reduces drift between agent tools, HTTP routes, CLI commands and MCP-style surfaces by keeping business logic in one action implementation and treating transports as adapters.
+The same capability is often reimplemented for agents, HTTP, CLI and MCP-style tools. ActionMesh keeps one action contract and makes those surfaces thin adapters.
 
 ## Key topics
 
