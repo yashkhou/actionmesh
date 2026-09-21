@@ -80,7 +80,7 @@ flowchart LR
     C[MCP-style adapter] --> E
     D[HTTP / CLI] --> E
     E --> F[Input schema]
-    F --> G[run()]
+    F --> G["run()"]
     G --> H[Output schema]
     H --> I[One result / error contract]
 ```
