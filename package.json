@@ -1,0 +1,14 @@
+{
+  "name": "actionmesh",
+  "version": "0.1.0",
+  "description": "Framework-agnostic typed actions for MCP-style tools, HTTP and CLI.",
+  "type": "module",
+  "exports": {".": "./dist/index.js"},
+  "scripts": {"build": "tsc -p tsconfig.json", "test": "npm run build && node --test dist/core.test.js"},
+  "keywords": ["mcp","model-context-protocol","ai-agents","typed-actions","zod","http-api","cli","agentic-ai","typescript"],
+  "license": "MIT",
+  "repository": {"type": "git", "url": "git+https://github.com/yashkhou/actionmesh.git"},
+  "homepage": "https://yashkhou.github.io/actionmesh/",
+  "dependencies": {"zod": "^3.25.0", "zod-to-json-schema": "^3.24.6"},
+  "devDependencies": {"@types/node": "^22.0.0", "typescript": "^5.9.0"}
+}

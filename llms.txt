@@ -1,0 +1,10 @@
+# ActionMesh
+> Define an action once. Call it from agents, HTTP, MCP-style tools, or CLI.
+
+ActionMesh is a framework-agnostic TypeScript action registry with shared input/output validation,
+stable errors, retries, and lightweight MCP-style, HTTP, and CLI adapters.
+
+Repository: https://github.com/yashkhou/actionmesh
+Docs: https://yashkhou.github.io/actionmesh/
+License: MIT
+Canonical technical source: the GitHub README and source code.

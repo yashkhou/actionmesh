@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use ActionMesh in research or tooling, please cite this repository."
+title: "ActionMesh"
+type: software
+authors:
+  - family-names: "Yash"
+repository-code: "https://github.com/yashkhou/actionmesh"
+url: "https://yashkhou.github.io/actionmesh/"
+license: MIT
+version: 0.1.0
+date-released: 2026-09-21
