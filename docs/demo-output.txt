@@ -1,0 +1,31 @@
+TOOLS
+[
+  {
+    "name": "lookup-lead",
+    "description": "Look up a lead by id",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    }
+  }
+]
+
+CALL
+{
+  "isError": false,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"id\":\"lead_123\",\"status\":\"active\",\"owner\":\"Yash\"}"
+    }
+  ]
+}

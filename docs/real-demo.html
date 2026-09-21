@@ -1,0 +1,34 @@
+<!doctype html><html><head><meta charset="utf-8"><title>ActionMesh real demo</title>
+<style>body{margin:0;background:#090a0c;color:#f4f3ee;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;padding:44px}.card{max-width:1060px;margin:auto;border:1px solid #35373d;background:#0d0e11;box-shadow:inset 4px 0 #8f7cff;padding:32px}h1{font:700 42px system-ui;margin:0 0 8px;letter-spacing:-.04em}p{color:#8f929a;margin:0 0 28px}pre{white-space:pre-wrap;font-size:13px;line-height:1.55;color:#d9dade}b{color:#8f7cff}</style></head>
+<body><div class="card"><h1>ActionMesh</h1><p>Real MCP-style adapter output from <code>examples/demo.mjs</code></p><pre>TOOLS
+[
+  {
+    &quot;name&quot;: &quot;lookup-lead&quot;,
+    &quot;description&quot;: &quot;Look up a lead by id&quot;,
+    &quot;inputSchema&quot;: {
+      &quot;type&quot;: &quot;object&quot;,
+      &quot;properties&quot;: {
+        &quot;id&quot;: {
+          &quot;type&quot;: &quot;string&quot;
+        }
+      },
+      &quot;required&quot;: [
+        &quot;id&quot;
+      ],
+      &quot;additionalProperties&quot;: false,
+      &quot;$schema&quot;: &quot;http://json-schema.org/draft-07/schema#&quot;
+    }
+  }
+]
+
+CALL
+{
+  &quot;isError&quot;: false,
+  &quot;content&quot;: [
+    {
+      &quot;type&quot;: &quot;text&quot;,
+      &quot;text&quot;: &quot;{\&quot;id\&quot;:\&quot;lead_123\&quot;,\&quot;status\&quot;:\&quot;active\&quot;,\&quot;owner\&quot;:\&quot;Yash\&quot;}&quot;
+    }
+  ]
+}
+</pre></div></body></html>
