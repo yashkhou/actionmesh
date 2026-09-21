@@ -22,7 +22,6 @@
   <a href="https://github.com/yashkhou/actionmesh/releases/latest"><strong>Latest release</strong></a>
 </p>
 
-![ActionMesh product overview](./assets/hero.png)
 
 ## Why I built this
 
@@ -40,9 +39,6 @@ The same capability often gets rewritten as a backend route, an agent tool, a CL
 
 ## Real demo
 
-This screenshot comes from the repository's executable demo—not a design mockup.
-
-![ActionMesh real MCP-style adapter output](./assets/report.png)
 
 **[Open the real adapter demo →](https://yashkhou.github.io/actionmesh/real-demo.html)**
 
@@ -94,11 +90,24 @@ The design rule is intentionally narrow: **one action owns the contract; adapter
 - Centralize retryable vs deterministic failures
 - Reuse backend operations from scripts and CI without duplicating logic
 
-## Visual system
 
-The docs and repository assets are deliberately part of the project rather than generic GitHub decoration.
+## FAQ
 
-![ActionMesh demo surface](./assets/demo.png)
+### What is ActionMesh?
+
+ActionMesh is a framework-agnostic TypeScript action registry that keeps an operation’s input schema, output schema, implementation, errors and retry semantics in one contract.
+
+### Why use ActionMesh instead of separate handlers?
+
+It reduces drift between agent tools, HTTP routes, CLI commands and MCP-style surfaces by keeping business logic in one action implementation and treating transports as adapters.
+
+### Does ActionMesh implement the official MCP transport?
+
+The current release ships an MCP-style listTools/callTool adapter. An official Model Context Protocol SDK transport is a separate roadmap item.
+
+### What validates ActionMesh inputs?
+
+ActionMesh uses Zod schemas for runtime input validation and can also validate outputs before returning them to callers.
 
 ## Roadmap
 

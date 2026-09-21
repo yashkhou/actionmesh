@@ -1,7 +1,7 @@
 {
   "name": "actionmesh",
   "version": "0.2.0",
-  "description": "Framework-agnostic typed actions for MCP-style tools, HTTP and CLI.",
+  "description": "Typed TypeScript action contracts for AI tools, MCP-style calls, HTTP and CLI with shared Zod validation, errors and retry semantics.",
   "type": "module",
   "exports": {
     ".": "./dist/index.js"
@@ -14,12 +14,15 @@
     "mcp",
     "model-context-protocol",
     "ai-agents",
+    "agent-tools",
+    "tool-calling",
     "typed-actions",
     "zod",
+    "schema-validation",
     "http-api",
     "cli",
-    "agentic-ai",
-    "typescript"
+    "typescript",
+    "developer-tools"
   ],
   "license": "MIT",
   "repository": {
@@ -34,5 +37,15 @@
   "devDependencies": {
     "@types/node": "^22.0.0",
     "typescript": "^5.9.0"
+  },
+  "author": {
+    "name": "Yash",
+    "url": "https://github.com/yashkhou"
+  },
+  "bugs": {
+    "url": "https://github.com/yashkhou/actionmesh/issues"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }
