@@ -5,7 +5,7 @@ type: software
 authors:
   - family-names: "Yash"
 repository-code: "https://github.com/yashkhou/actionmesh"
-url: "https://yashkhou.github.io/actionmesh/"
+url: "https://yashkhou.com/projects/actionmesh"
 license: MIT
 version: 0.2.1
 date-released: 2026-09-21

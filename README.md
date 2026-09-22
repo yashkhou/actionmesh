@@ -7,7 +7,7 @@
   <a href="https://github.com/yashkhou/actionmesh/releases/latest"><img alt="Release" src="https://img.shields.io/github/v/release/yashkhou/actionmesh?style=flat-square"></a>
   <a href="./LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-111111?style=flat-square"></a>
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5.9-3178C6?style=flat-square&logo=typescript&logoColor=white">
-  <a href="https://yashkhou.github.io/actionmesh/"><img alt="Live docs" src="https://img.shields.io/badge/live-docs-8f7cff?style=flat-square"></a>
+  <a href="https://yashkhou.com/projects/actionmesh"><img alt="Project page" src="https://img.shields.io/badge/project-page-8f7cff?style=flat-square"></a>
 </p>
 
 <p align="center">
@@ -16,9 +16,8 @@
 </p>
 
 <p align="center">
-  <a href="https://yashkhou.github.io/actionmesh/"><strong>Live docs</strong></a> ·
-  <a href="https://yashkhou.github.io/actionmesh/real-demo.html"><strong>Open the real adapter demo</strong></a> ·
   <a href="https://yashkhou.com/projects/actionmesh"><strong>Project page</strong></a> ·
+  <a href="./docs/real-demo.html"><strong>Demo fixture</strong></a> ·
   <a href="https://github.com/yashkhou/actionmesh/releases/latest"><strong>Latest release</strong></a>
 </p>
 
@@ -40,7 +39,7 @@ The same capability often gets rewritten as a backend route, an agent tool, a CL
 ## Real demo
 
 
-**[Open the real adapter demo →](https://yashkhou.github.io/actionmesh/real-demo.html)**
+**[Inspect the adapter demo fixture →](./docs/real-demo.html)**
 
 ## Quick start
 
@@ -135,8 +134,8 @@ CI runs tests and the TypeScript build on every push and pull request.
 
 ## Project links
 
-- **Docs:** https://yashkhou.github.io/actionmesh/
-- **Portfolio:** https://yashkhou.com/projects/actionmesh
+- **Docs source:** [docs/](docs/)
+- **Project page:** https://yashkhou.com/projects/actionmesh
 - **Source:** https://github.com/yashkhou/actionmesh
 - **Author:** [Yash](https://github.com/yashkhou) / [@yashkhou](https://x.com/yashkhou)
 

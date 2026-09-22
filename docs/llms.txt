@@ -5,7 +5,7 @@
 ## Canonical sources
 
 - Repository: https://github.com/yashkhou/actionmesh
-- Documentation: https://yashkhou.github.io/actionmesh/
+- Documentation: https://yashkhou.com/projects/actionmesh
 - Releases: https://github.com/yashkhou/actionmesh/releases
 - Issues: https://github.com/yashkhou/actionmesh/issues
 - License: MIT
