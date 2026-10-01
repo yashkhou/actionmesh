@@ -48,5 +48,10 @@
   },
   "engines": {
     "node": ">=20"
-  }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
 }
