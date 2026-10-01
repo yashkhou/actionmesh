@@ -22,6 +22,16 @@
 </p>
 
 
+## Try it in 30 seconds
+
+```bash
+npm install github:yashkhou/actionmesh zod
+```
+
+```ts
+import { defineAction, ActionRegistry } from 'actionmesh';
+```
+
 ## Why I built this
 
 The same capability often gets rewritten as a backend route, an agent tool, a CLI script and an MCP handler. Those copies drift. ActionMesh keeps one implementation and treats transports as adapters—not new places for business logic.
